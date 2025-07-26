@@ -54,6 +54,11 @@ app.MapGet("/products/{id}", async (int id, ProductDbContext db) =>
 // Добавить новый продукт
 app.MapPost("/products", async (Product product, ProductDbContext db) =>
 {
+    if (product.Price <= 0)
+        return Results.BadRequest("Price must be greater than 0");
+
+    if (product.Stock < 0)
+        return Results.BadRequest("Stock cannot be negative");
     db.Products.Add(product);
     await db.SaveChangesAsync();
     return Results.Created($"/products/{product.Id}", product);
@@ -62,6 +67,8 @@ app.MapPost("/products", async (Product product, ProductDbContext db) =>
 // Изменить количество товара на складе
 app.MapPut("/products/{id}/stock", async (int id, int stock, ProductDbContext db) =>
 {
+    if (stock < 0)
+        return Results.BadRequest("Stock cannot be negative");
     var product = await db.Products.FindAsync(id);
     if (product == null) return Results.NotFound();
 
