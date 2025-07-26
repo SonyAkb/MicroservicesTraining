@@ -45,3 +45,5 @@ C:\Users\user\source\repos\MicroservicesTraining\ProductService\obj\Debug\net8.0
 C:\Users\user\source\repos\MicroservicesTraining\ProductService\obj\Debug\net8.0\ProductService.pdb
 C:\Users\user\source\repos\MicroservicesTraining\ProductService\obj\Debug\net8.0\ProductService.genruntimeconfig.cache
 C:\Users\user\source\repos\MicroservicesTraining\ProductService\obj\Debug\net8.0\ref\ProductService.dll
+C:\Users\user\source\repos\MicroservicesTraining\ProductService\obj\Debug\net8.0\ProductService.sourcelink.json
+C:\Users\user\source\repos\MicroservicesTraining\ProductService\bin\Debug\net8.0\products.json

@@ -3,16 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\user\\source\\repos\\MicroservicesTraining\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{7E4B08D7-F16A-4186-8A1C-53EE2D1034EB}|ProductService\\ProductService.csproj|c:\\users\\user\\source\\repos\\microservicestraining\\productservice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7E4B08D7-F16A-4186-8A1C-53EE2D1034EB}|ProductService\\ProductService.csproj|solutionrelative:productservice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{7E4B08D7-F16A-4186-8A1C-53EE2D1034EB}|ProductService\\ProductService.csproj|c:\\users\\user\\source\\repos\\microservicestraining\\productservice\\productdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7E4B08D7-F16A-4186-8A1C-53EE2D1034EB}|ProductService\\ProductService.csproj|solutionrelative:productservice\\productdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{7E4B08D7-F16A-4186-8A1C-53EE2D1034EB}|ProductService\\ProductService.csproj|c:\\users\\user\\source\\repos\\microservicestraining\\productservice\\products.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{7E4B08D7-F16A-4186-8A1C-53EE2D1034EB}|ProductService\\ProductService.csproj|solutionrelative:productservice\\products.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{7E4B08D7-F16A-4186-8A1C-53EE2D1034EB}|ProductService\\ProductService.csproj|c:\\users\\user\\source\\repos\\microservicestraining\\productservice\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7E4B08D7-F16A-4186-8A1C-53EE2D1034EB}|ProductService\\ProductService.csproj|solutionrelative:productservice\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7E4B08D7-F16A-4186-8A1C-53EE2D1034EB}|ProductService\\ProductService.csproj|c:\\users\\user\\source\\repos\\microservicestraining\\productservice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7E4B08D7-F16A-4186-8A1C-53EE2D1034EB}|ProductService\\ProductService.csproj|solutionrelative:productservice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -25,31 +29,44 @@
           "SelectedChildIndex": 2,
           "Children": [
             {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "ProductDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\MicroservicesTraining\\ProductService\\ProductDbContext.cs",
-              "RelativeDocumentMoniker": "ProductService\\ProductDbContext.cs",
-              "ToolTip": "C:\\Users\\user\\source\\repos\\MicroservicesTraining\\ProductService\\ProductDbContext.cs",
-              "RelativeToolTip": "ProductService\\ProductDbContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAhAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-26T09:29:25.007Z",
-              "EditorCaption": ""
-            },
-            {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
             },
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "products.json",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\MicroservicesTraining\\ProductService\\products.json",
+              "RelativeDocumentMoniker": "ProductService\\products.json",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\MicroservicesTraining\\ProductService\\products.json",
+              "RelativeToolTip": "ProductService\\products.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-07-26T11:12:08.276Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "ProductDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\MicroservicesTraining\\ProductService\\ProductDbContext.cs",
+              "RelativeDocumentMoniker": "ProductService\\ProductDbContext.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\MicroservicesTraining\\ProductService\\ProductDbContext.cs",
+              "RelativeToolTip": "ProductService\\ProductDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-26T09:29:25.007Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\user\\source\\repos\\MicroservicesTraining\\ProductService\\Program.cs",
               "RelativeDocumentMoniker": "ProductService\\Program.cs",
-              "ToolTip": "C:\\Users\\user\\source\\repos\\MicroservicesTraining\\ProductService\\Program.cs*",
-              "RelativeToolTip": "ProductService\\Program.cs*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAA3AAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\MicroservicesTraining\\ProductService\\Program.cs",
+              "RelativeToolTip": "ProductService\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAA5AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-26T09:14:09.571Z",
               "EditorCaption": ""
@@ -62,7 +79,7 @@
               "RelativeDocumentMoniker": "ProductService\\Product.cs",
               "ToolTip": "C:\\Users\\user\\source\\repos\\MicroservicesTraining\\ProductService\\Product.cs",
               "RelativeToolTip": "ProductService\\Product.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAA4AAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-26T09:14:04.62Z",
               "EditorCaption": ""

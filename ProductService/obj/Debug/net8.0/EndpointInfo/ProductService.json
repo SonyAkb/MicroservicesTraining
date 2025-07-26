@@ -106,6 +106,9 @@
   "components": {
     "schemas": {
       "Product": {
+        "required": [
+          "name"
+        ],
         "type": "object",
         "properties": {
           "id": {

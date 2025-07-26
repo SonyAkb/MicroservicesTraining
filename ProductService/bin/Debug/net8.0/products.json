@@ -1,0 +1,22 @@
+[
+  {
+    "id": 8,
+    "name": "book",
+    "price": 400,
+    "stock": 2
+  },
+
+  {
+    "id": 10,
+    "name": "pen",
+    "price": 10,
+    "stock": 200
+  },
+
+  {
+    "id": 1,
+    "name": "bracelet",
+    "price": 1000,
+    "stock": 3
+  }
+]
