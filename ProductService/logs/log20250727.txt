@@ -1,0 +1,124 @@
+2025-07-27 13:32:50.545 +05:00 [INF] Saved 3 entities to in-memory store.
+2025-07-27 13:32:50.579 +05:00 [INF] Запуск ProductService на адресах: 
+2025-07-27 13:32:50.687 +05:00 [INF] Now listening on: https://localhost:7094
+2025-07-27 13:32:50.687 +05:00 [INF] Now listening on: http://localhost:5198
+2025-07-27 13:32:50.701 +05:00 [INF] No action descriptors found. This may indicate an incorrectly configured application or missing application parts. To learn more, visit https://aka.ms/aspnet/mvc/app-parts
+2025-07-27 13:32:50.732 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-07-27 13:32:50.733 +05:00 [INF] Hosting environment: Development
+2025-07-27 13:32:50.733 +05:00 [INF] Content root path: C:\Users\user\source\repos\MicroservicesTraining\ProductService
+2025-07-27 13:32:51.509 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7094/swagger/index.html - null null
+2025-07-27 13:32:51.654 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7094/swagger/index.html - 200 null text/html;charset=utf-8 146.1851ms
+2025-07-27 13:32:51.715 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7094/_framework/aspnetcore-browser-refresh.js - null null
+2025-07-27 13:32:51.719 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7094/_framework/aspnetcore-browser-refresh.js - 200 13764 application/javascript; charset=utf-8 3.2535ms
+2025-07-27 13:32:51.837 +05:00 [INF] Request starting HTTP/2 CONNECT https://localhost:7094/7D8B79A2-8974-4D7B-A76A-F4F29624C06Btfzg9EbtQZ0tEvMXrWjRDoKY9Dyxw77aS_9ZIN9I1LBSE99H06Aly1bp-RfKz6wYPBSJ5ml3EC3FkKcXsd483A/websocket?url=https%3A%2F%2Flocalhost%3A7094%2Fswagger%2Findex.html&nocache=1753605171730 - null null
+2025-07-27 13:32:51.841 +05:00 [INF] HTTP CONNECT /7D8B79A2-8974-4D7B-A76A-F4F29624C06Btfzg9EbtQZ0tEvMXrWjRDoKY9Dyxw77aS_9ZIN9I1LBSE99H06Aly1bp-RfKz6wYPBSJ5ml3EC3FkKcXsd483A/websocket responded 404 in 0.6578 ms
+2025-07-27 13:32:51.842 +05:00 [INF] Request finished HTTP/2 CONNECT https://localhost:7094/7D8B79A2-8974-4D7B-A76A-F4F29624C06Btfzg9EbtQZ0tEvMXrWjRDoKY9Dyxw77aS_9ZIN9I1LBSE99H06Aly1bp-RfKz6wYPBSJ5ml3EC3FkKcXsd483A/websocket?url=https%3A%2F%2Flocalhost%3A7094%2Fswagger%2Findex.html&nocache=1753605171730 - 404 0 null 4.7048ms
+2025-07-27 13:32:51.843 +05:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: CONNECT https://localhost:7094/7D8B79A2-8974-4D7B-A76A-F4F29624C06Btfzg9EbtQZ0tEvMXrWjRDoKY9Dyxw77aS_9ZIN9I1LBSE99H06Aly1bp-RfKz6wYPBSJ5ml3EC3FkKcXsd483A/websocket, Response status code: 404
+2025-07-27 13:32:51.846 +05:00 [INF] Connection id "0HNECT0MBB8QB", Request id "0HNECT0MBB8QB:00000007": the application completed without reading the entire request body.
+2025-07-27 13:32:51.927 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7094/_vs/browserLink - null null
+2025-07-27 13:32:52.075 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7094/_vs/browserLink - 200 null text/javascript; charset=UTF-8 148.2706ms
+2025-07-27 13:32:52.119 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7094/swagger/v1/swagger.json - null null
+2025-07-27 13:32:52.126 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7094/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 6.6339ms
+2025-07-27 13:33:09.378 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7094/products - null null
+2025-07-27 13:33:09.380 +05:00 [INF] Executing endpoint 'HTTP: GET /products'
+2025-07-27 13:33:09.383 +05:00 [INF] Requesting a list of all products
+2025-07-27 13:33:09.416 +05:00 [INF] Products found 3
+2025-07-27 13:33:09.417 +05:00 [INF] Setting HTTP status code 200.
+2025-07-27 13:33:09.417 +05:00 [INF] Writing value of type 'List`1' as Json.
+2025-07-27 13:33:09.420 +05:00 [INF] Executed endpoint 'HTTP: GET /products'
+2025-07-27 13:33:09.420 +05:00 [INF] HTTP GET /products responded 200 in 40.2743 ms
+2025-07-27 13:33:09.420 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7094/products - 200 null application/json; charset=utf-8 41.9229ms
+2025-07-27 13:33:58.976 +05:00 [INF] Request starting HTTP/2 POST https://localhost:7094/products - application/json 64
+2025-07-27 13:33:58.976 +05:00 [INF] Executing endpoint 'HTTP: POST /products'
+2025-07-27 13:33:58.984 +05:00 [INF] Creating a new product: ProductService.Product
+2025-07-27 13:33:59.011 +05:00 [INF] Saved 1 entities to in-memory store.
+2025-07-27 13:33:59.012 +05:00 [INF] The product has been created. ID: 17
+2025-07-27 13:33:59.012 +05:00 [INF] Setting HTTP status code 201.
+2025-07-27 13:33:59.012 +05:00 [INF] Writing value of type 'Product' as Json.
+2025-07-27 13:33:59.012 +05:00 [INF] Executed endpoint 'HTTP: POST /products'
+2025-07-27 13:33:59.012 +05:00 [INF] HTTP POST /products responded 201 in 36.3818 ms
+2025-07-27 13:33:59.012 +05:00 [INF] Request finished HTTP/2 POST https://localhost:7094/products - 201 null application/json; charset=utf-8 36.8038ms
+2025-07-27 13:34:07.975 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7094/products - null null
+2025-07-27 13:34:07.975 +05:00 [INF] Executing endpoint 'HTTP: GET /products'
+2025-07-27 13:34:07.975 +05:00 [INF] Requesting a list of all products
+2025-07-27 13:34:07.976 +05:00 [INF] Products found 4
+2025-07-27 13:34:07.976 +05:00 [INF] Setting HTTP status code 200.
+2025-07-27 13:34:07.976 +05:00 [INF] Writing value of type 'List`1' as Json.
+2025-07-27 13:34:07.976 +05:00 [INF] Executed endpoint 'HTTP: GET /products'
+2025-07-27 13:34:07.976 +05:00 [INF] HTTP GET /products responded 200 in 1.0781 ms
+2025-07-27 13:34:07.976 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7094/products - 200 null application/json; charset=utf-8 1.4556ms
+2025-07-27 13:36:07.755 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7094/products/8 - null null
+2025-07-27 13:36:07.756 +05:00 [INF] Executing endpoint 'HTTP: GET /products/{id}'
+2025-07-27 13:36:07.757 +05:00 [INF] Requesting a product with an ID: 8
+2025-07-27 13:36:07.787 +05:00 [INF] Setting HTTP status code 200.
+2025-07-27 13:36:07.787 +05:00 [INF] Writing value of type 'Product' as Json.
+2025-07-27 13:36:07.787 +05:00 [INF] Executed endpoint 'HTTP: GET /products/{id}'
+2025-07-27 13:36:07.787 +05:00 [INF] HTTP GET /products/8 responded 200 in 30.7115 ms
+2025-07-27 13:36:07.787 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7094/products/8 - 200 null application/json; charset=utf-8 31.7194ms
+2025-07-27 13:36:13.379 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7094/products/80 - null null
+2025-07-27 13:36:13.380 +05:00 [INF] Executing endpoint 'HTTP: GET /products/{id}'
+2025-07-27 13:36:13.381 +05:00 [INF] Requesting a product with an ID: 80
+2025-07-27 13:36:13.384 +05:00 [WRN] Product with ID not found 80
+2025-07-27 13:36:13.385 +05:00 [INF] Setting HTTP status code 404.
+2025-07-27 13:36:13.385 +05:00 [INF] Executed endpoint 'HTTP: GET /products/{id}'
+2025-07-27 13:36:13.385 +05:00 [INF] HTTP GET /products/80 responded 404 in 4.5804 ms
+2025-07-27 13:36:13.385 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7094/products/80 - 404 0 null 6.5194ms
+2025-07-27 13:36:30.635 +05:00 [INF] Request starting HTTP/2 PUT https://localhost:7094/products/17/stock?stock=-9 - null 0
+2025-07-27 13:36:30.636 +05:00 [INF] Executing endpoint 'HTTP: PUT /products/{id}/stock'
+2025-07-27 13:36:30.645 +05:00 [INF] Сhanging the product quantity: 17
+2025-07-27 13:36:30.645 +05:00 [WRN] Incorrect quantity: -9
+2025-07-27 13:36:30.645 +05:00 [INF] Setting HTTP status code 400.
+2025-07-27 13:36:30.645 +05:00 [INF] Writing value of type 'String' as Json.
+2025-07-27 13:36:30.645 +05:00 [INF] Executed endpoint 'HTTP: PUT /products/{id}/stock'
+2025-07-27 13:36:30.645 +05:00 [INF] HTTP PUT /products/17/stock responded 400 in 9.8957 ms
+2025-07-27 13:36:30.646 +05:00 [INF] Request finished HTTP/2 PUT https://localhost:7094/products/17/stock?stock=-9 - 400 null application/json; charset=utf-8 10.1856ms
+2025-07-27 13:36:36.517 +05:00 [INF] Request starting HTTP/2 PUT https://localhost:7094/products/17/stock?stock=90 - null 0
+2025-07-27 13:36:36.517 +05:00 [INF] Executing endpoint 'HTTP: PUT /products/{id}/stock'
+2025-07-27 13:36:36.518 +05:00 [INF] Сhanging the product quantity: 17
+2025-07-27 13:36:36.521 +05:00 [INF] Saved 1 entities to in-memory store.
+2025-07-27 13:36:36.521 +05:00 [INF] The quantity has been changed. New quantity: 90 Product name: apple
+2025-07-27 13:36:36.521 +05:00 [INF] Setting HTTP status code 204.
+2025-07-27 13:36:36.521 +05:00 [INF] Executed endpoint 'HTTP: PUT /products/{id}/stock'
+2025-07-27 13:36:36.521 +05:00 [INF] HTTP PUT /products/17/stock responded 204 in 3.9559 ms
+2025-07-27 13:36:36.521 +05:00 [INF] Request finished HTTP/2 PUT https://localhost:7094/products/17/stock?stock=90 - 204 null null 4.406ms
+2025-07-27 13:36:42.825 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7094/products - null null
+2025-07-27 13:36:42.825 +05:00 [INF] Executing endpoint 'HTTP: GET /products'
+2025-07-27 13:36:42.826 +05:00 [INF] Requesting a list of all products
+2025-07-27 13:36:42.826 +05:00 [INF] Products found 4
+2025-07-27 13:36:42.826 +05:00 [INF] Setting HTTP status code 200.
+2025-07-27 13:36:42.826 +05:00 [INF] Writing value of type 'List`1' as Json.
+2025-07-27 13:36:42.826 +05:00 [INF] Executed endpoint 'HTTP: GET /products'
+2025-07-27 13:36:42.826 +05:00 [INF] HTTP GET /products responded 200 in 0.7212 ms
+2025-07-27 13:36:42.826 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7094/products - 200 null application/json; charset=utf-8 0.9916ms
+2025-07-27 13:37:22.331 +05:00 [INF] Request starting HTTP/1.1 GET https://localhost:7094/products/8 - null null
+2025-07-27 13:37:22.331 +05:00 [INF] Executing endpoint 'HTTP: GET /products/{id}'
+2025-07-27 13:37:22.332 +05:00 [INF] Requesting a product with an ID: 8
+2025-07-27 13:37:22.332 +05:00 [INF] Setting HTTP status code 200.
+2025-07-27 13:37:22.332 +05:00 [INF] Writing value of type 'Product' as Json.
+2025-07-27 13:37:22.333 +05:00 [INF] Executed endpoint 'HTTP: GET /products/{id}'
+2025-07-27 13:37:22.333 +05:00 [INF] HTTP GET /products/8 responded 200 in 1.2233 ms
+2025-07-27 13:37:22.333 +05:00 [INF] Request finished HTTP/1.1 GET https://localhost:7094/products/8 - 200 null application/json; charset=utf-8 1.6273ms
+2025-07-27 13:37:45.975 +05:00 [INF] Request starting HTTP/1.1 GET https://localhost:7094/products/17 - null null
+2025-07-27 13:37:45.975 +05:00 [INF] Executing endpoint 'HTTP: GET /products/{id}'
+2025-07-27 13:37:45.975 +05:00 [INF] Requesting a product with an ID: 17
+2025-07-27 13:37:45.976 +05:00 [INF] Setting HTTP status code 200.
+2025-07-27 13:37:45.976 +05:00 [INF] Writing value of type 'Product' as Json.
+2025-07-27 13:37:45.976 +05:00 [INF] Executed endpoint 'HTTP: GET /products/{id}'
+2025-07-27 13:37:45.976 +05:00 [INF] HTTP GET /products/17 responded 200 in 1.1607 ms
+2025-07-27 13:37:45.976 +05:00 [INF] Request finished HTTP/1.1 GET https://localhost:7094/products/17 - 200 null application/json; charset=utf-8 1.4285ms
+2025-07-27 13:37:58.420 +05:00 [INF] Request starting HTTP/1.1 GET https://localhost:7094/products/100 - null null
+2025-07-27 13:37:58.420 +05:00 [INF] Executing endpoint 'HTTP: GET /products/{id}'
+2025-07-27 13:37:58.420 +05:00 [INF] Requesting a product with an ID: 100
+2025-07-27 13:37:58.421 +05:00 [WRN] Product with ID not found 100
+2025-07-27 13:37:58.421 +05:00 [INF] Setting HTTP status code 404.
+2025-07-27 13:37:58.421 +05:00 [INF] Executed endpoint 'HTTP: GET /products/{id}'
+2025-07-27 13:37:58.421 +05:00 [INF] HTTP GET /products/100 responded 404 in 0.8740 ms
+2025-07-27 13:37:58.421 +05:00 [INF] Request finished HTTP/1.1 GET https://localhost:7094/products/100 - 404 0 null 1.4434ms
+2025-07-27 13:38:13.336 +05:00 [INF] Request starting HTTP/1.1 GET https://localhost:7094/products/8 - null null
+2025-07-27 13:38:13.336 +05:00 [INF] Executing endpoint 'HTTP: GET /products/{id}'
+2025-07-27 13:38:13.337 +05:00 [INF] Requesting a product with an ID: 8
+2025-07-27 13:38:13.337 +05:00 [INF] Setting HTTP status code 200.
+2025-07-27 13:38:13.337 +05:00 [INF] Writing value of type 'Product' as Json.
+2025-07-27 13:38:13.337 +05:00 [INF] Executed endpoint 'HTTP: GET /products/{id}'
+2025-07-27 13:38:13.337 +05:00 [INF] HTTP GET /products/8 responded 200 in 1.0246 ms
+2025-07-27 13:38:13.337 +05:00 [INF] Request finished HTTP/1.1 GET https://localhost:7094/products/8 - 200 null application/json; charset=utf-8 1.234ms

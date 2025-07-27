@@ -1,0 +1,18 @@
+2025-07-26 19:30:14.393 +05:00 [INF] Saved 3 entities to in-memory store.
+2025-07-26 19:30:14.495 +05:00 [INF] Now listening on: https://localhost:7094
+2025-07-26 19:30:14.495 +05:00 [INF] Now listening on: http://localhost:5198
+2025-07-26 19:30:14.507 +05:00 [INF] No action descriptors found. This may indicate an incorrectly configured application or missing application parts. To learn more, visit https://aka.ms/aspnet/mvc/app-parts
+2025-07-26 19:30:14.537 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-07-26 19:30:14.537 +05:00 [INF] Hosting environment: Development
+2025-07-26 19:30:14.537 +05:00 [INF] Content root path: C:\Users\user\source\repos\MicroservicesTraining\ProductService
+2025-07-26 19:30:15.074 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7094/swagger/index.html - null null
+2025-07-26 19:30:15.170 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7094/swagger/index.html - 200 null text/html;charset=utf-8 96.7938ms
+2025-07-26 19:30:15.212 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7094/_framework/aspnetcore-browser-refresh.js - null null
+2025-07-26 19:30:15.215 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7094/_framework/aspnetcore-browser-refresh.js - 200 13764 application/javascript; charset=utf-8 2.7248ms
+2025-07-26 19:30:15.339 +05:00 [INF] Request starting HTTP/2 CONNECT https://localhost:7094/7D8B79A2-8974-4D7B-A76A-F4F29624C06BEZB4VSgk82fofvevFx5qh7C5Ikw4IJ9WRSzPKeGj5Itd2uYK3Y517RO8XH2qWFKOfbXRzvbkzPvu2plve6iy4g/websocket?url=https%3A%2F%2Flocalhost%3A7094%2Fswagger%2Findex.html&nocache=1753540215269 - null null
+2025-07-26 19:30:15.341 +05:00 [INF] Request finished HTTP/2 CONNECT https://localhost:7094/7D8B79A2-8974-4D7B-A76A-F4F29624C06BEZB4VSgk82fofvevFx5qh7C5Ikw4IJ9WRSzPKeGj5Itd2uYK3Y517RO8XH2qWFKOfbXRzvbkzPvu2plve6iy4g/websocket?url=https%3A%2F%2Flocalhost%3A7094%2Fswagger%2Findex.html&nocache=1753540215269 - 404 0 null 1.4967ms
+2025-07-26 19:30:15.342 +05:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: CONNECT https://localhost:7094/7D8B79A2-8974-4D7B-A76A-F4F29624C06BEZB4VSgk82fofvevFx5qh7C5Ikw4IJ9WRSzPKeGj5Itd2uYK3Y517RO8XH2qWFKOfbXRzvbkzPvu2plve6iy4g/websocket, Response status code: 404
+2025-07-26 19:30:15.469 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7094/_vs/browserLink - null null
+2025-07-26 19:30:15.486 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7094/_vs/browserLink - 200 null text/javascript; charset=UTF-8 17.2974ms
+2025-07-26 19:30:15.539 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7094/swagger/v1/swagger.json - null null
+2025-07-26 19:30:15.544 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7094/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 5.3858ms

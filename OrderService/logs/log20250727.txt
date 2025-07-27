@@ -1,0 +1,119 @@
+2025-07-27 13:33:01.898 +05:00 [INF] Запуск OrderService на адресах: 
+2025-07-27 13:33:02.050 +05:00 [INF] Now listening on: https://localhost:7095
+2025-07-27 13:33:02.051 +05:00 [INF] Now listening on: http://localhost:5006
+2025-07-27 13:33:02.065 +05:00 [INF] No action descriptors found. This may indicate an incorrectly configured application or missing application parts. To learn more, visit https://aka.ms/aspnet/mvc/app-parts
+2025-07-27 13:33:02.101 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-07-27 13:33:02.101 +05:00 [INF] Hosting environment: Development
+2025-07-27 13:33:02.101 +05:00 [INF] Content root path: C:\Users\user\source\repos\MicroservicesTraining\OrderService
+2025-07-27 13:33:02.370 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7095/swagger/index.html - null null
+2025-07-27 13:33:02.492 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7095/swagger/index.html - 200 null text/html;charset=utf-8 122.1265ms
+2025-07-27 13:33:02.557 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7095/_framework/aspnetcore-browser-refresh.js - null null
+2025-07-27 13:33:02.560 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7095/_framework/aspnetcore-browser-refresh.js - 200 13760 application/javascript; charset=utf-8 2.7921ms
+2025-07-27 13:33:02.678 +05:00 [INF] Request starting HTTP/2 CONNECT https://localhost:7095/7D8B79A2-8974-4D7B-A76A-F4F29624C06Bqx15O3IDgxTzTjvSdH_LSgojbhKlzPKwvcisjoVo7GrsbP-hUQky1WMq4fBu5YxNHcTV6IAXhU5Bfa6xkt4Sug/websocket?url=https%3A%2F%2Flocalhost%3A7095%2Fswagger%2Findex.html&nocache=1753605182612 - null null
+2025-07-27 13:33:02.681 +05:00 [INF] HTTP CONNECT /7D8B79A2-8974-4D7B-A76A-F4F29624C06Bqx15O3IDgxTzTjvSdH_LSgojbhKlzPKwvcisjoVo7GrsbP-hUQky1WMq4fBu5YxNHcTV6IAXhU5Bfa6xkt4Sug/websocket responded 404 in 0.3047 ms
+2025-07-27 13:33:02.682 +05:00 [INF] Request finished HTTP/2 CONNECT https://localhost:7095/7D8B79A2-8974-4D7B-A76A-F4F29624C06Bqx15O3IDgxTzTjvSdH_LSgojbhKlzPKwvcisjoVo7GrsbP-hUQky1WMq4fBu5YxNHcTV6IAXhU5Bfa6xkt4Sug/websocket?url=https%3A%2F%2Flocalhost%3A7095%2Fswagger%2Findex.html&nocache=1753605182612 - 404 0 null 3.3542ms
+2025-07-27 13:33:02.683 +05:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: CONNECT https://localhost:7095/7D8B79A2-8974-4D7B-A76A-F4F29624C06Bqx15O3IDgxTzTjvSdH_LSgojbhKlzPKwvcisjoVo7GrsbP-hUQky1WMq4fBu5YxNHcTV6IAXhU5Bfa6xkt4Sug/websocket, Response status code: 404
+2025-07-27 13:33:02.685 +05:00 [INF] Connection id "0HNECT0PL4EHK", Request id "0HNECT0PL4EHK:00000007": the application completed without reading the entire request body.
+2025-07-27 13:33:02.814 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7095/_vs/browserLink - null null
+2025-07-27 13:33:02.833 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7095/_vs/browserLink - 200 null text/javascript; charset=UTF-8 19.0645ms
+2025-07-27 13:33:02.893 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7095/swagger/v1/swagger.json - null null
+2025-07-27 13:33:02.899 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7095/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 5.8282ms
+2025-07-27 13:36:58.128 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7095/orders - null null
+2025-07-27 13:36:58.129 +05:00 [INF] Executing endpoint 'HTTP: GET /orders'
+2025-07-27 13:36:58.231 +05:00 [INF] Requesting a list of all orders
+2025-07-27 13:36:58.462 +05:00 [INF] Orders found 0
+2025-07-27 13:36:58.464 +05:00 [INF] Setting HTTP status code 200.
+2025-07-27 13:36:58.466 +05:00 [INF] Writing value of type 'List`1' as Json.
+2025-07-27 13:36:58.467 +05:00 [INF] Executed endpoint 'HTTP: GET /orders'
+2025-07-27 13:36:58.467 +05:00 [INF] HTTP GET /orders responded 200 in 337.8577 ms
+2025-07-27 13:36:58.468 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7095/orders - 200 null application/json; charset=utf-8 340.3646ms
+2025-07-27 13:37:22.279 +05:00 [INF] Request starting HTTP/2 POST https://localhost:7095/orders - application/json 91
+2025-07-27 13:37:22.280 +05:00 [INF] Executing endpoint 'HTTP: POST /orders'
+2025-07-27 13:37:22.317 +05:00 [INF] Creating order for product 
+2025-07-27 13:37:22.319 +05:00 [INF] Start processing HTTP request GET https://localhost:7094/products/8
+2025-07-27 13:37:22.321 +05:00 [INF] Sending HTTP request GET https://localhost:7094/products/8
+2025-07-27 13:37:22.335 +05:00 [INF] Received HTTP response headers after 12.5601ms - 200
+2025-07-27 13:37:22.335 +05:00 [INF] End processing HTTP request after 16.7701ms - 200
+2025-07-27 13:37:22.389 +05:00 [INF] Saved 1 entities to in-memory store.
+2025-07-27 13:37:22.392 +05:00 [INF] The order has been created. ID: 1
+2025-07-27 13:37:22.393 +05:00 [INF] Setting HTTP status code 201.
+2025-07-27 13:37:22.393 +05:00 [INF] Writing value of type 'Order' as Json.
+2025-07-27 13:37:22.395 +05:00 [INF] Executed endpoint 'HTTP: POST /orders'
+2025-07-27 13:37:22.395 +05:00 [INF] HTTP POST /orders responded 201 in 115.5415 ms
+2025-07-27 13:37:22.395 +05:00 [INF] Request finished HTTP/2 POST https://localhost:7095/orders - 201 null application/json; charset=utf-8 116.3739ms
+2025-07-27 13:37:45.971 +05:00 [INF] Request starting HTTP/2 POST https://localhost:7095/orders - application/json 93
+2025-07-27 13:37:45.971 +05:00 [INF] Executing endpoint 'HTTP: POST /orders'
+2025-07-27 13:37:45.974 +05:00 [INF] Creating order for product 
+2025-07-27 13:37:45.974 +05:00 [INF] Start processing HTTP request GET https://localhost:7094/products/17
+2025-07-27 13:37:45.974 +05:00 [INF] Sending HTTP request GET https://localhost:7094/products/17
+2025-07-27 13:37:45.976 +05:00 [INF] Received HTTP response headers after 2.2718ms - 200
+2025-07-27 13:37:45.976 +05:00 [INF] End processing HTTP request after 2.4835ms - 200
+2025-07-27 13:37:46.003 +05:00 [INF] Saved 1 entities to in-memory store.
+2025-07-27 13:37:46.003 +05:00 [INF] The order has been created. ID: 2
+2025-07-27 13:37:46.003 +05:00 [INF] Setting HTTP status code 201.
+2025-07-27 13:37:46.003 +05:00 [INF] Writing value of type 'Order' as Json.
+2025-07-27 13:37:46.003 +05:00 [INF] Executed endpoint 'HTTP: POST /orders'
+2025-07-27 13:37:46.003 +05:00 [INF] HTTP POST /orders responded 201 in 32.4503 ms
+2025-07-27 13:37:46.003 +05:00 [INF] Request finished HTTP/2 POST https://localhost:7095/orders - 201 null application/json; charset=utf-8 32.852ms
+2025-07-27 13:37:50.696 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7095/orders - null null
+2025-07-27 13:37:50.696 +05:00 [INF] Executing endpoint 'HTTP: GET /orders'
+2025-07-27 13:37:50.697 +05:00 [INF] Requesting a list of all orders
+2025-07-27 13:37:50.701 +05:00 [INF] Orders found 2
+2025-07-27 13:37:50.701 +05:00 [INF] Setting HTTP status code 200.
+2025-07-27 13:37:50.701 +05:00 [INF] Writing value of type 'List`1' as Json.
+2025-07-27 13:37:50.701 +05:00 [INF] Executed endpoint 'HTTP: GET /orders'
+2025-07-27 13:37:50.701 +05:00 [INF] HTTP GET /orders responded 200 in 4.5174 ms
+2025-07-27 13:37:50.701 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7095/orders - 200 null application/json; charset=utf-8 4.9412ms
+2025-07-27 13:37:58.418 +05:00 [INF] Request starting HTTP/2 POST https://localhost:7095/orders - application/json 94
+2025-07-27 13:37:58.419 +05:00 [INF] Executing endpoint 'HTTP: POST /orders'
+2025-07-27 13:37:58.419 +05:00 [INF] Creating order for product 
+2025-07-27 13:37:58.419 +05:00 [INF] Start processing HTTP request GET https://localhost:7094/products/100
+2025-07-27 13:37:58.419 +05:00 [INF] Sending HTTP request GET https://localhost:7094/products/100
+2025-07-27 13:37:58.421 +05:00 [INF] Received HTTP response headers after 2.2446ms - 404
+2025-07-27 13:37:58.422 +05:00 [INF] End processing HTTP request after 2.4872ms - 404
+2025-07-27 13:37:58.422 +05:00 [WRN] Product 100 not found
+2025-07-27 13:37:58.422 +05:00 [INF] Setting HTTP status code 404.
+2025-07-27 13:37:58.423 +05:00 [INF] Writing value of type 'String' as Json.
+2025-07-27 13:37:58.424 +05:00 [INF] Executed endpoint 'HTTP: POST /orders'
+2025-07-27 13:37:58.424 +05:00 [INF] HTTP POST /orders responded 404 in 5.1229 ms
+2025-07-27 13:37:58.424 +05:00 [INF] Request finished HTTP/2 POST https://localhost:7095/orders - 404 null application/json; charset=utf-8 5.6059ms
+2025-07-27 13:38:13.335 +05:00 [INF] Request starting HTTP/2 POST https://localhost:7095/orders - application/json 94
+2025-07-27 13:38:13.335 +05:00 [INF] Executing endpoint 'HTTP: POST /orders'
+2025-07-27 13:38:13.336 +05:00 [INF] Creating order for product 
+2025-07-27 13:38:13.336 +05:00 [INF] Start processing HTTP request GET https://localhost:7094/products/8
+2025-07-27 13:38:13.336 +05:00 [INF] Sending HTTP request GET https://localhost:7094/products/8
+2025-07-27 13:38:13.338 +05:00 [INF] Received HTTP response headers after 1.7755ms - 200
+2025-07-27 13:38:13.338 +05:00 [INF] End processing HTTP request after 1.9195ms - 200
+2025-07-27 13:38:13.338 +05:00 [WRN] Not enough stock
+2025-07-27 13:38:13.338 +05:00 [INF] Setting HTTP status code 400.
+2025-07-27 13:38:13.338 +05:00 [INF] Writing value of type 'String' as Json.
+2025-07-27 13:38:13.338 +05:00 [INF] Executed endpoint 'HTTP: POST /orders'
+2025-07-27 13:38:13.338 +05:00 [INF] HTTP POST /orders responded 400 in 2.8684 ms
+2025-07-27 13:38:13.338 +05:00 [INF] Request finished HTTP/2 POST https://localhost:7095/orders - 400 null application/json; charset=utf-8 3.2891ms
+2025-07-27 13:38:21.960 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7095/orders/1 - null null
+2025-07-27 13:38:21.961 +05:00 [INF] Executing endpoint 'HTTP: GET /orders/{id}'
+2025-07-27 13:38:22.028 +05:00 [INF] Setting HTTP status code 200.
+2025-07-27 13:38:22.028 +05:00 [INF] Writing value of type 'Order' as Json.
+2025-07-27 13:38:22.028 +05:00 [INF] Executed endpoint 'HTTP: GET /orders/{id}'
+2025-07-27 13:38:22.028 +05:00 [INF] HTTP GET /orders/1 responded 200 in 67.0474 ms
+2025-07-27 13:38:22.028 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7095/orders/1 - 200 null application/json; charset=utf-8 67.7823ms
+2025-07-27 13:38:28.097 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7095/orders/2 - null null
+2025-07-27 13:38:28.098 +05:00 [INF] Executing endpoint 'HTTP: GET /orders/{id}'
+2025-07-27 13:38:28.119 +05:00 [INF] Setting HTTP status code 200.
+2025-07-27 13:38:28.119 +05:00 [INF] Writing value of type 'Order' as Json.
+2025-07-27 13:38:28.120 +05:00 [INF] Executed endpoint 'HTTP: GET /orders/{id}'
+2025-07-27 13:38:28.120 +05:00 [INF] HTTP GET /orders/2 responded 200 in 22.0236 ms
+2025-07-27 13:38:28.120 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7095/orders/2 - 200 null application/json; charset=utf-8 22.492ms
+2025-07-27 13:38:31.796 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7095/orders/20 - null null
+2025-07-27 13:38:31.796 +05:00 [INF] Executing endpoint 'HTTP: GET /orders/{id}'
+2025-07-27 13:38:31.797 +05:00 [INF] Setting HTTP status code 404.
+2025-07-27 13:38:31.797 +05:00 [INF] Executed endpoint 'HTTP: GET /orders/{id}'
+2025-07-27 13:38:31.797 +05:00 [INF] HTTP GET /orders/20 responded 404 in 1.3739 ms
+2025-07-27 13:38:31.797 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7095/orders/20 - 404 0 null 1.7188ms
+2025-07-27 13:38:36.593 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7095/orders/1 - null null
+2025-07-27 13:38:36.594 +05:00 [INF] Executing endpoint 'HTTP: GET /orders/{id}'
+2025-07-27 13:38:36.594 +05:00 [INF] Setting HTTP status code 200.
+2025-07-27 13:38:36.594 +05:00 [INF] Writing value of type 'Order' as Json.
+2025-07-27 13:38:36.594 +05:00 [INF] Executed endpoint 'HTTP: GET /orders/{id}'
+2025-07-27 13:38:36.594 +05:00 [INF] HTTP GET /orders/1 responded 200 in 0.9852 ms
+2025-07-27 13:38:36.594 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7095/orders/1 - 200 null application/json; charset=utf-8 1.2607ms
