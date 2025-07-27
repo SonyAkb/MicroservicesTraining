@@ -1,8 +1,8 @@
-# Микросервисы на C# (.NET 8)
+# Microservices in C# (.NET 8): Order Service and Product Service
 
 Language
 1. [English](#English-version)
-2. [Русский](#Микросервисы-на-C#-(.NET-8):-Order-Service-и-Product-Service)
+2. [Русский](#Русская-версия)
 
 ---
 
@@ -136,6 +136,8 @@ The services communicate via gRPC.
 ---
 
 ---
+
+# Русская версия
 
 # Микросервисы на C# (.NET 8): Order Service и Product Service
   
