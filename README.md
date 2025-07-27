@@ -33,6 +33,8 @@ The project consists of two microservices:
 
 The Order Service communicates with the Product Service to check product availability before creating an order.  
 
+[:arrow_up:Table of Contents](#Table-of-Contents)
+
 ---
 
 ## Technologies and Tools
@@ -40,6 +42,8 @@ The Order Service communicates with the Product Service to check product availab
 - **Communication Protocol**: gRPC  
 - **Database**: In-Memory  
 - **API Documentation**: Swagger  
+
+[:arrow_up:Table of Contents](#Table-of-Contents)
 
 ---
 
@@ -53,6 +57,8 @@ The Order Service communicates with the Product Service to check product availab
    - Reserves products when creating orders.  
 
 The services communicate via gRPC.  
+
+[:arrow_up:Table of Contents](#Table-of-Contents)
 
 ---
 
@@ -75,6 +81,8 @@ The services communicate via gRPC.
      dotnet run
      ```
 
+[:arrow_up:Table of Contents](#Table-of-Contents)
+
 ---
 
 ## API Endpoints
@@ -86,6 +94,8 @@ The services communicate via gRPC.
 ### Order Service
 - `POST /orders` — Create an order (checks product availability).  
 - `GET /orders/{id}` — Get order information.  
+
+[:arrow_up:Table of Contents](#Table-of-Contents)
 
 ---
 
@@ -116,6 +126,8 @@ The services communicate via gRPC.
 <img width="422" height="99" alt="image" src="https://github.com/user-attachments/assets/6d7380dd-4c7a-49c4-a310-946ebb83f9c0" />
 <img width="372" height="507" alt="image" src="https://github.com/user-attachments/assets/94dc2b23-a774-451f-84de-f18d951ea716" />
 
+[:arrow_up:Table of Contents](#Table-of-Contents)
+
 ---
 
 ## Issues and Solutions
@@ -125,6 +137,8 @@ The services communicate via gRPC.
 **Issue**: Errors during product reservation.  
 **Solution**: Ensure Product Service returns correct stock availability data.  
 
+[:arrow_up:Table of Contents](#Table-of-Contents)
+
 ---
 
 ## Future Improvements
@@ -132,6 +146,10 @@ The services communicate via gRPC.
 - Add Docker containerization  
 - Write unit tests  
 - Implement RabbitMQ messaging  
+
+[:arrow_up:Table of Contents](#Table-of-Contents)
+
+---
 
 ---
 
@@ -160,6 +178,8 @@ The services communicate via gRPC.
 
 Order Service взаимодействует с Product Service для проверки наличия товара перед созданием заказа.  
 
+[:arrow_up:Содержание](#Содержание)
+
 ---
 
 ## Технологии и инструменты
@@ -167,6 +187,8 @@ Order Service взаимодействует с Product Service для пров�
 - **Формат коммуникации**: gRPC  
 - **База данных**: In-Memory 
 - **Документирование API**: Swagger      
+
+[:arrow_up:Содержание](#Содержание)
 
 ---
 
@@ -180,6 +202,8 @@ Order Service взаимодействует с Product Service для пров�
    - Резервирование товара при создании заказа.  
 
 Связь между сервисами реализована через gRPC.  
+
+[:arrow_up:Содержание](#Содержание)
 
 ---
 
@@ -202,6 +226,8 @@ Order Service взаимодействует с Product Service для пров�
      dotnet run
      ```
 
+[:arrow_up:Содержание](#Содержание)
+
 ---
 
 ## API Endpoints
@@ -213,6 +239,8 @@ Order Service взаимодействует с Product Service для пров�
 ### Order Service
 - `POST /orders` — создать заказ (проверяет наличие товара).  
 - `GET /orders/{id}` — получить информацию о заказе.  
+
+[:arrow_up:Содержание](#Содержание)
 
 ---
 
@@ -253,6 +281,8 @@ Order Service взаимодействует с Product Service для пров�
 
 <img width="372" height="507" alt="image" src="https://github.com/user-attachments/assets/94dc2b23-a774-451f-84de-f18d951ea716" />
 
+[:arrow_up:Содержание](#Содержание)
+
 ---
 
 ## Проблемы и решения
@@ -266,6 +296,8 @@ Order Service взаимодействует с Product Service для пров�
 
 Решение: Убедиться, что Product Service возвращает корректные данные о наличии товара.
 
+[:arrow_up:Содержание](#Содержание)
+
 ---
 
 ## Планы по доработке
@@ -274,3 +306,5 @@ Order Service взаимодействует с Product Service для пров�
 - Реализовать контейнеризацию через Docker.
 - Написать  unit-тесты.
 - Реализовать использование RabbitMQ.
+
+[:arrow_up:Содержание](#Содержание)
