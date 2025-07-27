@@ -1,8 +1,8 @@
 # Микросервисы на C# (.NET 8)
 
 Language
-- [English](Microservices-in-C#-(.NET-8):-Order-Service-and-Product-Service)
-- [Русский](#Микросервисы-на-C#-(.NET-8):-Order-Service-и-Product-Service)
+1. [English](Microservices-in-C#-(.NET-8):-Order-Service-and-Product-Service)
+2. [Русский](#Микросервисы-на-C#-(.NET-8):-Order-Service-и-Product-Service)
 
 ---
 
