@@ -82,7 +82,7 @@ Order Service взаимодействует с Product Service для пров�
 
 #### Добавление нового продукта
 
-<img width="384" height="592" alt="image" src="https://github.com/user-attachments/assets/54a6f952-51e8-4edf-a2f0-057ce04ea25b" />
+<img width="178" height="150" alt="image" src="https://github.com/user-attachments/assets/60b95e4d-a92e-46e7-a2bc-02ff3daf0e51" />
 
 <img width="388" height="594" alt="image" src="https://github.com/user-attachments/assets/24288e66-dc2c-4b96-a59c-d96211b1b14d" />
 
