@@ -122,3 +122,120 @@
 2025-07-27 13:38:13.337 +05:00 [INF] Executed endpoint 'HTTP: GET /products/{id}'
 2025-07-27 13:38:13.337 +05:00 [INF] HTTP GET /products/8 responded 200 in 1.0246 ms
 2025-07-27 13:38:13.337 +05:00 [INF] Request finished HTTP/1.1 GET https://localhost:7094/products/8 - 200 null application/json; charset=utf-8 1.234ms
+2025-07-27 16:04:31.300 +05:00 [INF] Saved 3 entities to in-memory store.
+2025-07-27 16:04:31.327 +05:00 [INF] Запуск ProductService на адресах: 
+2025-07-27 16:04:31.412 +05:00 [INF] Now listening on: https://localhost:7094
+2025-07-27 16:04:31.412 +05:00 [INF] Now listening on: http://localhost:5198
+2025-07-27 16:04:31.425 +05:00 [INF] No action descriptors found. This may indicate an incorrectly configured application or missing application parts. To learn more, visit https://aka.ms/aspnet/mvc/app-parts
+2025-07-27 16:04:31.455 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-07-27 16:04:31.455 +05:00 [INF] Hosting environment: Development
+2025-07-27 16:04:31.455 +05:00 [INF] Content root path: C:\Users\user\source\repos\MicroservicesTraining\ProductService
+2025-07-27 16:04:31.933 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7094/_framework/aspnetcore-browser-refresh.js - null null
+2025-07-27 16:04:31.933 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7094/_vs/browserLink - null null
+2025-07-27 16:04:31.954 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7094/_framework/aspnetcore-browser-refresh.js - 200 13764 application/javascript; charset=utf-8 22.0149ms
+2025-07-27 16:04:32.037 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7094/_vs/browserLink - 200 null text/javascript; charset=UTF-8 106.0777ms
+2025-07-27 16:04:32.360 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7094/swagger/v1/swagger.json - null null
+2025-07-27 16:04:32.397 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7094/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 36.3797ms
+2025-07-27 16:05:07.135 +05:00 [INF] Request starting HTTP/2 CONNECT https://localhost:7094/7D8B79A2-8974-4D7B-A76A-F4F29624C06BGlRmeiGYl51AIArq3D9QQwAuRVF17aGLmu0ABLCyiN7ODH73p5pCwKXc5Ttej9eAgNVGhA6jzoucP5umBZJ7_g/websocket?url=https%3A%2F%2Flocalhost%3A7094%2Fswagger%2Findex.html&nocache=1753614307129 - null null
+2025-07-27 16:05:07.139 +05:00 [INF] HTTP CONNECT /7D8B79A2-8974-4D7B-A76A-F4F29624C06BGlRmeiGYl51AIArq3D9QQwAuRVF17aGLmu0ABLCyiN7ODH73p5pCwKXc5Ttej9eAgNVGhA6jzoucP5umBZJ7_g/websocket responded 404 in 0.3488 ms
+2025-07-27 16:05:07.140 +05:00 [INF] Request finished HTTP/2 CONNECT https://localhost:7094/7D8B79A2-8974-4D7B-A76A-F4F29624C06BGlRmeiGYl51AIArq3D9QQwAuRVF17aGLmu0ABLCyiN7ODH73p5pCwKXc5Ttej9eAgNVGhA6jzoucP5umBZJ7_g/websocket?url=https%3A%2F%2Flocalhost%3A7094%2Fswagger%2Findex.html&nocache=1753614307129 - 404 0 null 4.8645ms
+2025-07-27 16:05:07.141 +05:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: CONNECT https://localhost:7094/7D8B79A2-8974-4D7B-A76A-F4F29624C06BGlRmeiGYl51AIArq3D9QQwAuRVF17aGLmu0ABLCyiN7ODH73p5pCwKXc5Ttej9eAgNVGhA6jzoucP5umBZJ7_g/websocket, Response status code: 404
+2025-07-27 16:05:24.433 +05:00 [INF] Request starting HTTP/2 CONNECT https://localhost:7094/7D8B79A2-8974-4D7B-A76A-F4F29624C06BGlRmeiGYl51AIArq3D9QQwAuRVF17aGLmu0ABLCyiN7ODH73p5pCwKXc5Ttej9eAgNVGhA6jzoucP5umBZJ7_g/websocket?url=https%3A%2F%2Flocalhost%3A7094%2Fswagger%2Findex.html&nocache=1753614324408 - null null
+2025-07-27 16:05:24.435 +05:00 [INF] HTTP CONNECT /7D8B79A2-8974-4D7B-A76A-F4F29624C06BGlRmeiGYl51AIArq3D9QQwAuRVF17aGLmu0ABLCyiN7ODH73p5pCwKXc5Ttej9eAgNVGhA6jzoucP5umBZJ7_g/websocket responded 404 in 0.0348 ms
+2025-07-27 16:05:24.436 +05:00 [INF] Request finished HTTP/2 CONNECT https://localhost:7094/7D8B79A2-8974-4D7B-A76A-F4F29624C06BGlRmeiGYl51AIArq3D9QQwAuRVF17aGLmu0ABLCyiN7ODH73p5pCwKXc5Ttej9eAgNVGhA6jzoucP5umBZJ7_g/websocket?url=https%3A%2F%2Flocalhost%3A7094%2Fswagger%2Findex.html&nocache=1753614324408 - 404 0 null 2.3603ms
+2025-07-27 16:05:24.436 +05:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: CONNECT https://localhost:7094/7D8B79A2-8974-4D7B-A76A-F4F29624C06BGlRmeiGYl51AIArq3D9QQwAuRVF17aGLmu0ABLCyiN7ODH73p5pCwKXc5Ttej9eAgNVGhA6jzoucP5umBZJ7_g/websocket, Response status code: 404
+2025-07-27 16:05:24.439 +05:00 [INF] Connection id "0HNECVLEFG2C5", Request id "0HNECVLEFG2C5:00000019": the application completed without reading the entire request body.
+2025-07-27 16:06:43.359 +05:00 [INF] Request starting HTTP/2 CONNECT https://localhost:7094/7D8B79A2-8974-4D7B-A76A-F4F29624C06B96whL7huwEC__BZFyLoXuztwvWCYoJZbAmFrSry3Is-PmbZIzT_8fMDE6ucCQR9sGu3rwCGCArWLEQzy0AhTLQ/websocket?url=https%3A%2F%2Flocalhost%3A7094%2Fswagger%2Findex.html&nocache=1753614403355 - null null
+2025-07-27 16:06:43.359 +05:00 [INF] HTTP CONNECT /7D8B79A2-8974-4D7B-A76A-F4F29624C06B96whL7huwEC__BZFyLoXuztwvWCYoJZbAmFrSry3Is-PmbZIzT_8fMDE6ucCQR9sGu3rwCGCArWLEQzy0AhTLQ/websocket responded 404 in 0.0226 ms
+2025-07-27 16:06:43.359 +05:00 [INF] Request finished HTTP/2 CONNECT https://localhost:7094/7D8B79A2-8974-4D7B-A76A-F4F29624C06B96whL7huwEC__BZFyLoXuztwvWCYoJZbAmFrSry3Is-PmbZIzT_8fMDE6ucCQR9sGu3rwCGCArWLEQzy0AhTLQ/websocket?url=https%3A%2F%2Flocalhost%3A7094%2Fswagger%2Findex.html&nocache=1753614403355 - 404 0 null 0.5311ms
+2025-07-27 16:06:43.359 +05:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: CONNECT https://localhost:7094/7D8B79A2-8974-4D7B-A76A-F4F29624C06B96whL7huwEC__BZFyLoXuztwvWCYoJZbAmFrSry3Is-PmbZIzT_8fMDE6ucCQR9sGu3rwCGCArWLEQzy0AhTLQ/websocket, Response status code: 404
+2025-07-27 16:06:43.359 +05:00 [INF] Connection id "0HNECVLEFG2C5", Request id "0HNECVLEFG2C5:00000023": the application completed without reading the entire request body.
+2025-07-27 16:11:17.247 +05:00 [INF] Request starting HTTP/1.1 GET https://localhost:7094/products/8 - null null
+2025-07-27 16:11:17.249 +05:00 [INF] Executing endpoint 'HTTP: GET /products/{id}'
+2025-07-27 16:11:17.250 +05:00 [INF] Requesting a product with an ID: 8
+2025-07-27 16:11:17.295 +05:00 [INF] Setting HTTP status code 200.
+2025-07-27 16:11:17.295 +05:00 [INF] Writing value of type 'Product' as Json.
+2025-07-27 16:11:17.298 +05:00 [INF] Executed endpoint 'HTTP: GET /products/{id}'
+2025-07-27 16:11:17.298 +05:00 [INF] HTTP GET /products/8 responded 200 in 50.1775 ms
+2025-07-27 16:11:17.299 +05:00 [INF] Request finished HTTP/1.1 GET https://localhost:7094/products/8 - 200 null application/json; charset=utf-8 52.0148ms
+2025-07-27 17:16:22.679 +05:00 [INF] Saved 3 entities to in-memory store.
+2025-07-27 17:16:22.706 +05:00 [INF] Запуск ProductService на адресах: 
+2025-07-27 17:16:22.798 +05:00 [INF] Now listening on: https://localhost:7094
+2025-07-27 17:16:22.798 +05:00 [INF] Now listening on: http://localhost:5198
+2025-07-27 17:16:22.811 +05:00 [INF] No action descriptors found. This may indicate an incorrectly configured application or missing application parts. To learn more, visit https://aka.ms/aspnet/mvc/app-parts
+2025-07-27 17:16:22.839 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-07-27 17:16:22.839 +05:00 [INF] Hosting environment: Development
+2025-07-27 17:16:22.839 +05:00 [INF] Content root path: C:\Users\user\source\repos\MicroservicesTraining\ProductService
+2025-07-27 17:16:23.613 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7094/_vs/browserLink - null null
+2025-07-27 17:16:23.613 +05:00 [INF] Request starting HTTP/2 CONNECT https://localhost:7094/7D8B79A2-8974-4D7B-A76A-F4F29624C06BAS0AIZuslIQP-maIT5kwqCHdV9syAMSLf2lB9lX7DZrdmFkwr6pyYvsaNaru1lDQAV7qoRCT7841ad3I2Hsw7Q/websocket?url=https%3A%2F%2Flocalhost%3A7094%2Fswagger%2Findex.html&nocache=1753618583591 - null null
+2025-07-27 17:16:23.613 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7094/_framework/aspnetcore-browser-refresh.js - null null
+2025-07-27 17:16:23.624 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7094/_framework/aspnetcore-browser-refresh.js - 200 13764 application/javascript; charset=utf-8 11.6692ms
+2025-07-27 17:16:23.644 +05:00 [INF] HTTP CONNECT /7D8B79A2-8974-4D7B-A76A-F4F29624C06BAS0AIZuslIQP-maIT5kwqCHdV9syAMSLf2lB9lX7DZrdmFkwr6pyYvsaNaru1lDQAV7qoRCT7841ad3I2Hsw7Q/websocket responded 404 in 0.4142 ms
+2025-07-27 17:16:23.645 +05:00 [INF] Request finished HTTP/2 CONNECT https://localhost:7094/7D8B79A2-8974-4D7B-A76A-F4F29624C06BAS0AIZuslIQP-maIT5kwqCHdV9syAMSLf2lB9lX7DZrdmFkwr6pyYvsaNaru1lDQAV7qoRCT7841ad3I2Hsw7Q/websocket?url=https%3A%2F%2Flocalhost%3A7094%2Fswagger%2Findex.html&nocache=1753618583591 - 404 0 null 33.9156ms
+2025-07-27 17:16:23.648 +05:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: CONNECT https://localhost:7094/7D8B79A2-8974-4D7B-A76A-F4F29624C06BAS0AIZuslIQP-maIT5kwqCHdV9syAMSLf2lB9lX7DZrdmFkwr6pyYvsaNaru1lDQAV7qoRCT7841ad3I2Hsw7Q/websocket, Response status code: 404
+2025-07-27 17:16:23.649 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7094/_vs/browserLink - 200 null text/javascript; charset=UTF-8 37.7142ms
+2025-07-27 17:16:23.705 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7094/swagger/v1/swagger.json - null null
+2025-07-27 17:16:23.712 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7094/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 6.5395ms
+2025-07-27 17:50:44.732 +05:00 [INF] Saved 3 entities to in-memory store.
+2025-07-27 17:50:44.762 +05:00 [INF] Запуск ProductService на адресах: 
+2025-07-27 17:50:44.863 +05:00 [INF] Now listening on: https://localhost:7094
+2025-07-27 17:50:44.863 +05:00 [INF] Now listening on: http://localhost:5198
+2025-07-27 17:50:44.879 +05:00 [INF] No action descriptors found. This may indicate an incorrectly configured application or missing application parts. To learn more, visit https://aka.ms/aspnet/mvc/app-parts
+2025-07-27 17:50:44.910 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-07-27 17:50:44.910 +05:00 [INF] Hosting environment: Development
+2025-07-27 17:50:44.910 +05:00 [INF] Content root path: C:\Users\user\source\repos\MicroservicesTraining\ProductService
+2025-07-27 17:50:45.437 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7094/_vs/browserLink - null null
+2025-07-27 17:50:45.437 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7094/_framework/aspnetcore-browser-refresh.js - null null
+2025-07-27 17:50:45.452 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7094/_framework/aspnetcore-browser-refresh.js - 200 13764 application/javascript; charset=utf-8 16.4421ms
+2025-07-27 17:50:45.590 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7094/_vs/browserLink - 200 null text/javascript; charset=UTF-8 154.598ms
+2025-07-27 17:50:45.775 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7094/swagger/v1/swagger.json - null null
+2025-07-27 17:50:45.813 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7094/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 38.2824ms
+2025-07-27 17:50:55.871 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7094/products - null null
+2025-07-27 17:50:55.876 +05:00 [INF] Executing endpoint 'HTTP: GET /products'
+2025-07-27 17:50:55.881 +05:00 [INF] Requesting a list of all products
+2025-07-27 17:50:55.908 +05:00 [INF] Products found 3
+2025-07-27 17:50:55.910 +05:00 [INF] Setting HTTP status code 200.
+2025-07-27 17:50:55.911 +05:00 [INF] Writing value of type 'List`1' as Json.
+2025-07-27 17:50:55.915 +05:00 [INF] Executed endpoint 'HTTP: GET /products'
+2025-07-27 17:50:55.916 +05:00 [INF] HTTP GET /products responded 200 in 40.0313 ms
+2025-07-27 17:50:55.917 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7094/products - 200 null application/json; charset=utf-8 46.0197ms
+2025-07-27 17:52:56.799 +05:00 [INF] Request starting HTTP/2 CONNECT https://localhost:7094/7D8B79A2-8974-4D7B-A76A-F4F29624C06BSd8bgt7DwNuGlqmiZ82k2VXR6OANuKMHgChnxXvhiPCpNHaWPRgx0W0bZc1ej1yWtUXUSdCy7K-0joN598WRZg/websocket?url=https%3A%2F%2Flocalhost%3A7094%2Fswagger%2Findex.html&nocache=1753620776797 - null null
+2025-07-27 17:52:56.800 +05:00 [INF] HTTP CONNECT /7D8B79A2-8974-4D7B-A76A-F4F29624C06BSd8bgt7DwNuGlqmiZ82k2VXR6OANuKMHgChnxXvhiPCpNHaWPRgx0W0bZc1ej1yWtUXUSdCy7K-0joN598WRZg/websocket responded 404 in 0.1306 ms
+2025-07-27 17:52:56.801 +05:00 [INF] Request finished HTTP/2 CONNECT https://localhost:7094/7D8B79A2-8974-4D7B-A76A-F4F29624C06BSd8bgt7DwNuGlqmiZ82k2VXR6OANuKMHgChnxXvhiPCpNHaWPRgx0W0bZc1ej1yWtUXUSdCy7K-0joN598WRZg/websocket?url=https%3A%2F%2Flocalhost%3A7094%2Fswagger%2Findex.html&nocache=1753620776797 - 404 0 null 1.8946ms
+2025-07-27 17:52:56.801 +05:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: CONNECT https://localhost:7094/7D8B79A2-8974-4D7B-A76A-F4F29624C06BSd8bgt7DwNuGlqmiZ82k2VXR6OANuKMHgChnxXvhiPCpNHaWPRgx0W0bZc1ej1yWtUXUSdCy7K-0joN598WRZg/websocket, Response status code: 404
+2025-07-27 17:52:56.805 +05:00 [INF] Connection id "0HNED1GPT1K97", Request id "0HNED1GPT1K97:0000000B": the application completed without reading the entire request body.
+2025-07-27 17:53:37.298 +05:00 [INF] Request starting HTTP/2 POST https://localhost:7094/products - application/json 61
+2025-07-27 17:53:37.298 +05:00 [INF] Executing endpoint 'HTTP: POST /products'
+2025-07-27 17:53:37.307 +05:00 [INF] Creating a new product: ProductService.Product
+2025-07-27 17:53:37.336 +05:00 [INF] Saved 1 entities to in-memory store.
+2025-07-27 17:53:37.336 +05:00 [INF] The product has been created. ID: 12
+2025-07-27 17:53:37.337 +05:00 [INF] Setting HTTP status code 201.
+2025-07-27 17:53:37.337 +05:00 [INF] Writing value of type 'Product' as Json.
+2025-07-27 17:53:37.337 +05:00 [INF] Executed endpoint 'HTTP: POST /products'
+2025-07-27 17:53:37.337 +05:00 [INF] HTTP POST /products responded 201 in 38.5662 ms
+2025-07-27 17:53:37.337 +05:00 [INF] Request finished HTTP/2 POST https://localhost:7094/products - 201 null application/json; charset=utf-8 39.0072ms
+2025-07-27 17:55:38.426 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7094/products/12 - null null
+2025-07-27 17:55:38.427 +05:00 [INF] Executing endpoint 'HTTP: GET /products/{id}'
+2025-07-27 17:55:38.428 +05:00 [INF] Requesting a product with an ID: 12
+2025-07-27 17:55:38.477 +05:00 [INF] Setting HTTP status code 200.
+2025-07-27 17:55:38.477 +05:00 [INF] Writing value of type 'Product' as Json.
+2025-07-27 17:55:38.477 +05:00 [INF] Executed endpoint 'HTTP: GET /products/{id}'
+2025-07-27 17:55:38.477 +05:00 [INF] HTTP GET /products/12 responded 200 in 49.7801 ms
+2025-07-27 17:55:38.477 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7094/products/12 - 200 null application/json; charset=utf-8 50.5818ms
+2025-07-27 17:57:01.143 +05:00 [INF] Request starting HTTP/2 PUT https://localhost:7094/products/12/stock?stock=30 - null 0
+2025-07-27 17:57:01.143 +05:00 [INF] Executing endpoint 'HTTP: PUT /products/{id}/stock'
+2025-07-27 17:57:01.170 +05:00 [INF] Сhanging the product quantity: 12
+2025-07-27 17:57:01.174 +05:00 [INF] Saved 1 entities to in-memory store.
+2025-07-27 17:57:01.174 +05:00 [INF] The quantity has been changed. New quantity: 30 Product name: rope
+2025-07-27 17:57:01.174 +05:00 [INF] Setting HTTP status code 204.
+2025-07-27 17:57:01.174 +05:00 [INF] Executed endpoint 'HTTP: PUT /products/{id}/stock'
+2025-07-27 17:57:01.174 +05:00 [INF] HTTP PUT /products/12/stock responded 204 in 31.4541 ms
+2025-07-27 17:57:01.175 +05:00 [INF] Request finished HTTP/2 PUT https://localhost:7094/products/12/stock?stock=30 - 204 null null 31.8799ms
+2025-07-27 17:59:32.566 +05:00 [INF] Request starting HTTP/1.1 GET https://localhost:7094/products/12 - null null
+2025-07-27 17:59:32.566 +05:00 [INF] Executing endpoint 'HTTP: GET /products/{id}'
+2025-07-27 17:59:32.566 +05:00 [INF] Requesting a product with an ID: 12
+2025-07-27 17:59:32.567 +05:00 [INF] Setting HTTP status code 200.
+2025-07-27 17:59:32.567 +05:00 [INF] Writing value of type 'Product' as Json.
+2025-07-27 17:59:32.567 +05:00 [INF] Executed endpoint 'HTTP: GET /products/{id}'
+2025-07-27 17:59:32.568 +05:00 [INF] HTTP GET /products/12 responded 200 in 1.3378 ms
+2025-07-27 17:59:32.568 +05:00 [INF] Request finished HTTP/1.1 GET https://localhost:7094/products/12 - 200 null application/json; charset=utf-8 1.768ms

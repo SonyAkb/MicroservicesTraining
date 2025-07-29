@@ -11,36 +11,32 @@
       "RelativeMoniker": "D:0:0:{7E4B08D7-F16A-4186-8A1C-53EE2D1034EB}|ProductService\\ProductService.csproj|solutionrelative:productservice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7E4B08D7-F16A-4186-8A1C-53EE2D1034EB}|ProductService\\ProductService.csproj|c:\\users\\user\\source\\repos\\microservicestraining\\productservice\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{7E4B08D7-F16A-4186-8A1C-53EE2D1034EB}|ProductService\\ProductService.csproj|solutionrelative:productservice\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F2390D84-A58F-4E19-8CB3-60A276D4C833}|OrderService\\OrderService.csproj|c:\\users\\user\\source\\repos\\microservicestraining\\orderservice\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{F2390D84-A58F-4E19-8CB3-60A276D4C833}|OrderService\\OrderService.csproj|solutionrelative:orderservice\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7E4B08D7-F16A-4186-8A1C-53EE2D1034EB}|ProductService\\ProductService.csproj|c:\\users\\user\\source\\repos\\microservicestraining\\productservice\\productdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7E4B08D7-F16A-4186-8A1C-53EE2D1034EB}|ProductService\\ProductService.csproj|solutionrelative:productservice\\productdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F2390D84-A58F-4E19-8CB3-60A276D4C833}|OrderService\\OrderService.csproj|c:\\users\\user\\source\\repos\\microservicestraining\\orderservice\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F2390D84-A58F-4E19-8CB3-60A276D4C833}|OrderService\\OrderService.csproj|solutionrelative:orderservice\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{7E4B08D7-F16A-4186-8A1C-53EE2D1034EB}|ProductService\\ProductService.csproj|c:\\users\\user\\source\\repos\\microservicestraining\\productservice\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7E4B08D7-F16A-4186-8A1C-53EE2D1034EB}|ProductService\\ProductService.csproj|solutionrelative:productservice\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F2390D84-A58F-4E19-8CB3-60A276D4C833}|OrderService\\OrderService.csproj|c:\\users\\user\\source\\repos\\microservicestraining\\orderservice\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F2390D84-A58F-4E19-8CB3-60A276D4C833}|OrderService\\OrderService.csproj|solutionrelative:orderservice\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7E4B08D7-F16A-4186-8A1C-53EE2D1034EB}|ProductService\\ProductService.csproj|c:\\users\\user\\source\\repos\\microservicestraining\\productservice\\productdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7E4B08D7-F16A-4186-8A1C-53EE2D1034EB}|ProductService\\ProductService.csproj|solutionrelative:productservice\\productdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7E4B08D7-F16A-4186-8A1C-53EE2D1034EB}|ProductService\\ProductService.csproj|c:\\users\\user\\source\\repos\\microservicestraining\\productservice\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{7E4B08D7-F16A-4186-8A1C-53EE2D1034EB}|ProductService\\ProductService.csproj|solutionrelative:productservice\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F2390D84-A58F-4E19-8CB3-60A276D4C833}|OrderService\\OrderService.csproj|c:\\users\\user\\source\\repos\\microservicestraining\\orderservice\\orderdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F2390D84-A58F-4E19-8CB3-60A276D4C833}|OrderService\\OrderService.csproj|solutionrelative:orderservice\\orderdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F2390D84-A58F-4E19-8CB3-60A276D4C833}|OrderService\\OrderService.csproj|c:\\users\\user\\source\\repos\\microservicestraining\\orderservice\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{F2390D84-A58F-4E19-8CB3-60A276D4C833}|OrderService\\OrderService.csproj|solutionrelative:orderservice\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{7E4B08D7-F16A-4186-8A1C-53EE2D1034EB}|ProductService\\ProductService.csproj|c:\\users\\user\\source\\repos\\microservicestraining\\productservice\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{7E4B08D7-F16A-4186-8A1C-53EE2D1034EB}|ProductService\\ProductService.csproj|solutionrelative:productservice\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7E4B08D7-F16A-4186-8A1C-53EE2D1034EB}|ProductService\\ProductService.csproj|c:\\users\\user\\source\\repos\\microservicestraining\\productservice\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{7E4B08D7-F16A-4186-8A1C-53EE2D1034EB}|ProductService\\ProductService.csproj|solutionrelative:productservice\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{F2390D84-A58F-4E19-8CB3-60A276D4C833}|OrderService\\OrderService.csproj|c:\\users\\user\\source\\repos\\microservicestraining\\orderservice\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{F2390D84-A58F-4E19-8CB3-60A276D4C833}|OrderService\\OrderService.csproj|solutionrelative:orderservice\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     }
   ],
   "DocumentGroupContainers": [
@@ -49,12 +45,16 @@
       "VerticalTabListWidth": 256,
       "DocumentGroups": [
         {
-          "DockedWidth": 52,
+          "DockedWidth": 40,
           "SelectedChildIndex": 2,
           "Children": [
             {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 7,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\user\\source\\repos\\MicroservicesTraining\\ProductService\\appsettings.json",
               "RelativeDocumentMoniker": "ProductService\\appsettings.json",
@@ -62,12 +62,7 @@
               "RelativeToolTip": "ProductService\\appsettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAATAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-07-27T08:15:02.695Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+              "WhenOpened": "2025-07-27T08:15:02.695Z"
             },
             {
               "$type": "Document",
@@ -77,20 +72,20 @@
               "RelativeDocumentMoniker": "ProductService\\Program.cs",
               "ToolTip": "C:\\Users\\user\\source\\repos\\MicroservicesTraining\\ProductService\\Program.cs",
               "RelativeToolTip": "ProductService\\Program.cs",
-              "ViewState": "AgIAAEUAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAFEAAAAAAAAAAAAAAD0AAABOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-26T12:40:48.947Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 3,
               "Title": "Product.cs",
               "DocumentMoniker": "C:\\Users\\user\\source\\repos\\MicroservicesTraining\\ProductService\\Product.cs",
               "RelativeDocumentMoniker": "ProductService\\Product.cs",
               "ToolTip": "C:\\Users\\user\\source\\repos\\MicroservicesTraining\\ProductService\\Product.cs",
               "RelativeToolTip": "ProductService\\Product.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-26T14:43:59.868Z",
               "EditorCaption": ""
@@ -103,14 +98,14 @@
               "RelativeDocumentMoniker": "ProductService\\ProductDbContext.cs",
               "ToolTip": "C:\\Users\\user\\source\\repos\\MicroservicesTraining\\ProductService\\ProductDbContext.cs",
               "RelativeToolTip": "ProductService\\ProductDbContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-26T14:44:09.828Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 5,
               "Title": "launchSettings.json",
               "DocumentMoniker": "C:\\Users\\user\\source\\repos\\MicroservicesTraining\\ProductService\\Properties\\launchSettings.json",
               "RelativeDocumentMoniker": "ProductService\\Properties\\launchSettings.json",
@@ -124,22 +119,9 @@
           ]
         },
         {
-          "DockedWidth": 62,
-          "SelectedChildIndex": 1,
+          "DockedWidth": 74,
+          "SelectedChildIndex": 0,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\MicroservicesTraining\\OrderService\\appsettings.json",
-              "RelativeDocumentMoniker": "OrderService\\appsettings.json",
-              "ToolTip": "C:\\Users\\user\\source\\repos\\MicroservicesTraining\\OrderService\\appsettings.json",
-              "RelativeToolTip": "OrderService\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAHAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-07-27T08:12:51.244Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
@@ -148,7 +130,7 @@
               "RelativeDocumentMoniker": "OrderService\\Program.cs",
               "ToolTip": "C:\\Users\\user\\source\\repos\\MicroservicesTraining\\OrderService\\Program.cs",
               "RelativeToolTip": "OrderService\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAFcAAAAAAAAAAAAAAG8AAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-26T12:38:53.956Z",
               "EditorCaption": ""
@@ -163,12 +145,11 @@
               "RelativeToolTip": "OrderService\\Properties\\launchSettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-07-26T12:40:26.076Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-26T12:40:26.076Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 6,
               "Title": "OrderDbContext.cs",
               "DocumentMoniker": "C:\\Users\\user\\source\\repos\\MicroservicesTraining\\OrderService\\OrderDbContext.cs",
               "RelativeDocumentMoniker": "OrderService\\OrderDbContext.cs",
@@ -181,7 +162,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 2,
               "Title": "Order.cs",
               "DocumentMoniker": "C:\\Users\\user\\source\\repos\\MicroservicesTraining\\OrderService\\Order.cs",
               "RelativeDocumentMoniker": "OrderService\\Order.cs",

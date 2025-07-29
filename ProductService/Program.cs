@@ -25,10 +25,10 @@ if (app.Environment.IsDevelopment())
 
 var options = new JsonSerializerOptions // чтоб избежать ошибки из за того что в файле .json используется сamelCase
 {
-    PropertyNamingPolicy = JsonNamingPolicy.CamelCase // автоматически преобразует "Name" → "name"
+    PropertyNamingPolicy = JsonNamingPolicy.CamelCase // автоматически преобразует: Name -> name
 };
 
-var productsJson = File.ReadAllText(Path.Combine(AppContext.BaseDirectory, "products.json"));
+var productsJson = File.ReadAllText(Path.Combine(AppContext.BaseDirectory, "products.json")); // сразу загрузка некоторых продуктов
 
 var products = JsonSerializer.Deserialize<List<Product>>(productsJson, options);
 if (products != null)
@@ -47,7 +47,6 @@ if (products != null)
 // Получить все существующие продукты
 app.MapGet("/products", async (ProductDbContext db) =>
 {
-    // Логируем начало запроса
     Log.Information("Requesting a list of all products");
 
     try
@@ -60,7 +59,7 @@ app.MapGet("/products", async (ProductDbContext db) =>
     catch (Exception ex)
     {
         Log.Error(ex, "Error when receiving the product list");
-        return Results.Problem("Произошла ошибка при обработке запроса");
+        return Results.Problem("An error occurred while processing the request");
     }
 });
 
@@ -68,7 +67,6 @@ app.MapGet("/products", async (ProductDbContext db) =>
 app.MapGet("/products/{id}", async (int id, ProductDbContext db) =>
 {
     Log.Information($"Requesting a product with an ID: {id}");
-
     var product = await db.Products.FindAsync(id);
 
     if (product == null)
@@ -124,7 +122,7 @@ app.MapPut("/products/{id}/stock", async (int id, int stock, ProductDbContext db
     return Results.NoContent();
 });
 
-Log.Information($"Запуск {"ProductService"} на адресах: {string.Join(", ", app.Urls)}");
+Log.Information($"Launching ProductService at addresses: {string.Join(", ", app.Urls)}");
 app.UseSerilogRequestLogging();
 
 app.Run();

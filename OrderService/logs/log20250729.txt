@@ -1,0 +1,20 @@
+2025-07-29 23:34:17.852 +05:00 [INF] Launching an OrderService on addresses: 
+2025-07-29 23:34:17.992 +05:00 [INF] Now listening on: https://localhost:7095
+2025-07-29 23:34:17.993 +05:00 [INF] Now listening on: http://localhost:5006
+2025-07-29 23:34:18.005 +05:00 [INF] No action descriptors found. This may indicate an incorrectly configured application or missing application parts. To learn more, visit https://aka.ms/aspnet/mvc/app-parts
+2025-07-29 23:34:18.042 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-07-29 23:34:18.042 +05:00 [INF] Hosting environment: Development
+2025-07-29 23:34:18.051 +05:00 [INF] Content root path: C:\Users\user\source\repos\MicroservicesTraining\OrderService
+2025-07-29 23:34:18.342 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7095/swagger/index.html - null null
+2025-07-29 23:34:18.444 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7095/swagger/index.html - 200 null text/html;charset=utf-8 103.4454ms
+2025-07-29 23:34:18.491 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7095/_framework/aspnetcore-browser-refresh.js - null null
+2025-07-29 23:34:18.495 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7095/_framework/aspnetcore-browser-refresh.js - 200 13760 application/javascript; charset=utf-8 4.2318ms
+2025-07-29 23:34:18.712 +05:00 [INF] Request starting HTTP/2 CONNECT https://localhost:7095/7D8B79A2-8974-4D7B-A76A-F4F29624C06BozORklatrNe-AtTseaiGgwJr_prDwBdRsl7Ysic8lHJKC59jKVefUvyDrR2IpUy_W5cqzpHGdf-zj5ydf3IbEQ/websocket?url=https%3A%2F%2Flocalhost%3A7095%2Fswagger%2Findex.html&nocache=1753814058706 - null null
+2025-07-29 23:34:18.712 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7095/_vs/browserLink - null null
+2025-07-29 23:34:18.715 +05:00 [INF] HTTP CONNECT /7D8B79A2-8974-4D7B-A76A-F4F29624C06BozORklatrNe-AtTseaiGgwJr_prDwBdRsl7Ysic8lHJKC59jKVefUvyDrR2IpUy_W5cqzpHGdf-zj5ydf3IbEQ/websocket responded 404 in 0.3119 ms
+2025-07-29 23:34:18.716 +05:00 [INF] Request finished HTTP/2 CONNECT https://localhost:7095/7D8B79A2-8974-4D7B-A76A-F4F29624C06BozORklatrNe-AtTseaiGgwJr_prDwBdRsl7Ysic8lHJKC59jKVefUvyDrR2IpUy_W5cqzpHGdf-zj5ydf3IbEQ/websocket?url=https%3A%2F%2Flocalhost%3A7095%2Fswagger%2Findex.html&nocache=1753814058706 - 404 0 null 3.5428ms
+2025-07-29 23:34:18.717 +05:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: CONNECT https://localhost:7095/7D8B79A2-8974-4D7B-A76A-F4F29624C06BozORklatrNe-AtTseaiGgwJr_prDwBdRsl7Ysic8lHJKC59jKVefUvyDrR2IpUy_W5cqzpHGdf-zj5ydf3IbEQ/websocket, Response status code: 404
+2025-07-29 23:34:18.719 +05:00 [INF] Connection id "0HNEEPQ3I02GG", Request id "0HNEEPQ3I02GG:00000007": the application completed without reading the entire request body.
+2025-07-29 23:34:18.729 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7095/_vs/browserLink - 200 null text/javascript; charset=UTF-8 16.9027ms
+2025-07-29 23:34:18.786 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7095/swagger/v1/swagger.json - null null
+2025-07-29 23:34:18.792 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7095/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 5.7753ms

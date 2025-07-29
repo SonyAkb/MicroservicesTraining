@@ -40,7 +40,7 @@ app.MapGet("/orders", async (OrderDbContext db) =>
     catch (Exception ex)
     {
         Log.Error(ex, "Error when receiving the orders list");
-        return Results.Problem("Произошла ошибка при обработке запроса");
+        return Results.Problem("An error occurred while processing the request.");
     }
 });
 
@@ -93,11 +93,22 @@ app.MapPost("/orders", async (Order order, OrderDbContext db, IHttpClientFactory
 });
 
 // получить заказ по ID
-app.MapGet("/orders/{id}", async (int id, OrderDbContext db) =>
-    await db.Orders.FindAsync(id) is Order order 
-    ? Results.Ok(order) : Results.NotFound());
+app.MapGet("/orders/{id}", async (int id, OrderDbContext db, ILogger<Program> logger) =>
+{
+    logger.LogInformation($"Request to receive an order with an ID: {id}");
+    var order = await db.Orders.FindAsync(id);
 
-Log.Information($"Запуск {"OrderService"} на адресах: {string.Join(", ", app.Urls)}");
+    if (order == null)
+    {
+        logger.LogWarning($"Order with ID {id} not found");
+        return Results.NotFound();
+    }
+
+    logger.LogInformation($"Order with ID {id} successfully received");
+    return Results.Ok(order);
+});
+
+Log.Information($"Launching an OrderService on addresses: {string.Join(", ", app.Urls)}");
 app.UseSerilogRequestLogging();
 
 app.Run();

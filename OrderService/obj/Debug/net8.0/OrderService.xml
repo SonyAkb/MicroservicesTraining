@@ -1,0 +1,57 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>OrderService</name>
+    </assembly>
+    <members>
+        <member name="T:OrderService.Order">
+            <summary>
+            Order model
+            </summary>
+        </member>
+        <member name="P:OrderService.Order.Id">
+            <summary>
+            Unique order ID
+            </summary>
+            <example>1</example>
+        </member>
+        <member name="P:OrderService.Order.ProductId">
+            <summary>
+            The identifier of the product that is being ordered
+            </summary>
+            <example>8</example>
+        </member>
+        <member name="P:OrderService.Order.Quantity">
+            <summary>
+            The quantity of the ordered product (must be more than 0)
+            </summary>
+            <example>2</example>
+        </member>
+        <member name="P:OrderService.Order.CreatedAt">
+            <summary>
+            Date and time of order creation (UTC)
+            </summary>
+            <example>2023-12-20T14:30:00Z</example>
+        </member>
+        <member name="T:OrderService.OrderDbContext">
+            <summary>
+            Provides access to the Orders table in the database.
+            </summary>
+            <remarks>
+            It is used to perform CRUD operations with orders.
+            </remarks>
+        </member>
+        <!-- Badly formed XML comment ignored for member "M:OrderService.OrderDbContext.#ctor(Microsoft.EntityFrameworkCore.DbContextOptions{OrderService.OrderDbContext})" -->
+        <member name="P:OrderService.OrderDbContext.Orders">
+            <summary>
+            Set of order data (Orders table).
+            Allows you to perform queries and operations with orders.
+            </summary>
+            <example>
+            <code>
+            var orders = await dbContext.Orders.ToListAsync();
+            </code>
+            </example>
+        </member>
+    </members>
+</doc>

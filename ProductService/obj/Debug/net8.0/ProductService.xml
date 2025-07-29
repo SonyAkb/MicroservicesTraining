@@ -1,0 +1,58 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>ProductService</name>
+    </assembly>
+    <members>
+        <member name="T:ProductService.Product">
+            <summary>
+            Product Model
+            </summary>
+        </member>
+        <member name="P:ProductService.Product.Id">
+            <summary>
+            Unique product identifier
+            </summary>
+            <example>1</example>
+        </member>
+        <member name="P:ProductService.Product.Name">
+            <summary>
+            Product Name
+            </summary>
+            <example>book</example>
+        </member>
+        <member name="P:ProductService.Product.Price">
+            <summary>
+            Product price (must be more than 0)
+            </summary>
+            <example>400</example>
+        </member>
+        <member name="P:ProductService.Product.Stock">
+            <summary>
+            Quantity in stock
+            </summary>
+            <example>10</example>
+        </member>
+        <member name="T:ProductService.ProductDbContext">
+            <summary>
+            Product database
+            </summary>
+        </member>
+        <member name="M:ProductService.ProductDbContext.#ctor(Microsoft.EntityFrameworkCore.DbContextOptions{ProductService.ProductDbContext})">
+            <summary>
+            Initializes a new instance of the database context.
+            </summary>
+            /// <param name="options">Configuration parameters for DbContext. They must include the settings of the database provider.</param>
+        </member>
+        <member name="P:ProductService.ProductDbContext.Products">
+            <summary>
+            A collection of products in the database
+            </summary>
+            <example>
+            <code>
+            var product = await dbContext.Products.FindAsync(1);
+            </code>
+            </example>
+        </member>
+    </members>
+</doc>
